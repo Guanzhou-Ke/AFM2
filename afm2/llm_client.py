@@ -868,7 +868,7 @@ class LLMClient:
                  base_url: str = None,
                  api_key: str = None):
         if model_type == "openai" or model_type == "local":
-            self.client = get(base_url=base_url, api_key=api_key)
+            self.client = OpenAI(base_url=base_url, api_key=api_key)
         elif model_type == "anthropic":
             self.client = Anthropic(base_url=base_url, api_key=api_key)
         else:

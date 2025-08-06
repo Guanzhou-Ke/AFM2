@@ -4,6 +4,12 @@ Official repository for **"How Far Are We from Generating Missing Modalities wit
 
 AFM2 provides a unified interface for evaluating and deploying missing modality generation pipelines using foundation models such as **Qwen2.5** and **Qwen2.5-Omni**.
 
+💼💼💼
+***I am a fourth-year Ph.D. candidate focused on large multimodal model applications and AI agent systems. I am looking for a full-time job or an interns in related areas. If my work aligns with your interests or needs, please don’t hesitate to get in touch.**
+
+📧 Email: guanzhouk[AT]gmail.com
+📄 CV: [EN](https://guanzhouk.top/files/guanzhou-ke-cv-en.pdf) / [中文](https://guanzhouk.top/files/guanzhouke-cv-cn-new.pdf)
+
 ---
 
 ## 🚀 Quick Start
