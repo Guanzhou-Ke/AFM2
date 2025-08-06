@@ -1,0 +1,32 @@
+{
+    "image": [
+        "What objects or people are present in the image?",
+        "What colors dominate the scene?",
+        "Are there any facial expressions visible (e.g., smiling, frowning)?",
+        "What is the general mood conveyed by the scene (e.g., calm, chaotic, festive)?",
+        "Are there any symbols, text, or signs in the image that indicate emotion?",
+        "What is the weather or lighting condition in the image?",
+        "Are there any animals or nature elements that might influence sentiment?",
+        "How many people are present in the image?"
+    ],
+    "text": [
+        "What is the overall sentiment expressed in the text (positive, negative, neutral)?",
+        "What are the key entities or topics mentioned in the text?",
+        "Which emotional words or phrases are used (e.g., 'happy,' 'angry,' 'sad')?",
+        "Is there any sarcasm, irony, or figurative language present?",
+        "What context or events are described that might explain the sentiment?",
+        "Are there any negations or intensifiers modifying the sentiment (e.g., 'not happy,' 'extremely sad')?",
+        "What is the tone of the text (e.g., formal, urgent, playful)?",
+        "Are there any cultural references or idioms that affect sentiment interpretation?"
+    ],
+    "audio": [
+        "What is the speaker's tone of voice (e.g., cheerful, angry, calm)?",
+        "Are there variations in pitch or volume that indicate emotion?",
+        "What background sounds or noises are present (e.g., laughter, traffic, silence)?",
+        "Is the speech rate fast, slow, or irregular?",
+        "Are there pauses, hesitations, or interruptions in the audio?",
+        "Does the speaker exhibit signs of stress or excitement in their voice?",
+        "Are there any non-verbal sounds (e.g., sighs, laughter, crying)?",
+        "What language or dialect is used, and does it influence sentiment expression?"
+    ]
+}

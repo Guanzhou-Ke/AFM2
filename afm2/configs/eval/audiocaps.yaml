@@ -1,0 +1,36 @@
+dataset:
+  vision_root: '[your path to data]/audiocaps/images'
+  audio_root: '[your path to data]/audiocaps/media/test'
+  csv_index: 'afm2/configs/eval/audiocaps_test.csv'
+  category_info: 'afm2/configs/eval/audiocaps_category_info.json'
+  # missing_index: 'afm2/configs/missing-info/audiocaps/audio-0.3.json'
+  # missing_index: 'afm2/configs/missing-info/audiocaps/image-0.3.json'
+  missing_index: 'afm2/configs/missing-info/audiocaps/image-0.5.json'
+  # missing_index: 'afm2/configs/missing-info/audiocaps/image-0.7.json'
+
+
+
+
+
+
+
+default:
+  work_dir: 'eval_dir/audiocaps'
+  # exp_name: 'audio-0.3'
+  # complete_target: 'audio'
+
+  # exp_name: 'audio-0.5'
+  # complete_target: 'audio'
+
+  # exp_name: 'audio-0.7'
+  # complete_target: 'audio'
+
+  # exp_name: 'image-0.3'
+  # complete_target: 'image'
+
+  exp_name: 'image-0.5'
+  complete_target: 'image'
+
+  # exp_name: 'image-0.7'
+  # complete_target: 'image'
+  retry: 3

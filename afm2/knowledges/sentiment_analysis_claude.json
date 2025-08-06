@@ -1,0 +1,38 @@
+{
+    "image": [
+        "What are the main objects or entities present in this image?",
+        "Are there any humans in the image, and if so, what facial expressions are they displaying?",
+        "What is the dominant color palette of this image?",
+        "What is the setting or environment shown in the image?",
+        "Are there any visible gestures or body language conveying emotion?",
+        "Is there any text visible within the image?",
+        "Are there any visual metaphors or symbols that might convey sentiment?",
+        "What relationships can be observed between the objects/people in the image?",
+        "What is the overall mood or atmosphere conveyed by this image?",
+        "Are there any visual elements that contradict each other in terms of sentiment?"
+    ],
+    "text": [
+        "What explicit sentiment words or phrases are present in this text?",
+        "What named entities (people, organizations, products, locations) are mentioned?",
+        "What is the main topic or subject of this text?",
+        "What emotional language or affect-bearing words are used?",
+        "What is the overall tone of this text (formal, casual, serious, humorous)?",
+        "Are there any subjective statements or opinions expressed?",
+        "Are there any metaphors, similes, or idioms that convey sentiment?",
+        "What rhetorical devices are used that might influence sentiment?",
+        "Are there any temporal indicators (past, present, future) relevant to sentiment?",
+        "Is there any sarcasm, irony, or other indirect sentiment expressions?"
+    ],
+    "audio": [
+        "What emotions are conveyed in the speaker's tone of voice?",
+        "What is the actual verbal content of the speech?",
+        "What background sounds or noises are present?",
+        "Is there music, and if so, what mood does it convey?",
+        "What are the key voice characteristics (pitch, volume, pace, rhythm)?",
+        "Are there significant pauses or silences, and what might they indicate?",
+        "How many speakers are present, and what is their relationship?",
+        "What ambient sounds are present and what emotions do they evoke?",
+        "Are there any sound effects, and what purpose do they serve?",
+        "Does the emotional tone of the audio change over time, and how?"
+    ]
+}

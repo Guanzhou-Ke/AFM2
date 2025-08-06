@@ -1,0 +1,35 @@
+{
+    "image": [
+        "What objects are present in the image?",
+        "What color are these objects?",
+        "How many objects are there?",
+        "What is the spatial relationship between these objects?",
+        "What are these objects interacting with?",
+        "What action is the person or animal performing?",
+        "What is the environment or setting of the image?",
+        "Is there any text visible in the image? If so, what does it say?",
+        "What is the dominant color scheme of the image?"
+    ],
+    "text": [
+        "What are the main entities mentioned in the text?",
+        "What events or actions are described in the text?",
+        "What is the context or setting of the text?",
+        "What is the main idea or purpose of the text?",
+        "Are there any explicit or implicit emotions expressed in the text?",
+        "What is the cause-effect relationship mentioned in the text?",
+        "What are the temporal relationships (e.g., before/after) described?",
+        "Are there any metaphors, similes, or symbolic references in the text?"
+    ],
+    "audio": [
+        "What words or phrases are being spoken in the audio?",
+        "Are there any background sounds or noises present (e.g., traffic, music)?",
+        "What emotions are conveyed by the speaker's tone of voice?",
+        "How many speakers are present? Who are they?",
+        "What activity or environment is the audio likely captured in?",
+        "What actions or events are implied by the audio content?",
+        "Is there overlapping speech or dialogue between speakers?",
+        "What is the language or dialect being spoken?",
+        "Are there any non-verbal cues (e.g., laughter, sighs) in the audio?",
+        "Is there any music or specific sound effects present?"
+    ]
+}

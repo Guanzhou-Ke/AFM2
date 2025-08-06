@@ -1,0 +1,29 @@
+{
+    "image": [
+        "What objects are present in the image?",
+        "How many people are in the image?",
+        "What are the dominant colors in the image?",
+        "Are there any visible emotions on the people's faces?",
+        "What is the general setting of the image (e.g., indoors, outdoors)?",
+        "Is there any text visible in the image, and what does it say?",
+        "What is the lighting condition like in the image?"
+    ],
+    "text": [
+        "What is the sentiment of the text? (positive, negative, neutral)",
+        "Does the text contain any references to emotions (e.g., happy, sad, angry)?",
+        "What is the tone of the text (e.g., formal, casual, sarcastic)?",
+        "Are there any specific adjectives used to describe emotions or states?",
+        "Is there any contradiction or sarcasm in the text?",
+        "Does the text have a specific geographical or cultural context?",
+        "How does the sentence structure influence the tone or sentiment?"
+    ],
+    "audio": [
+        "What is the tone of the voice in the audio? (e.g., happy, sad, angry)",
+        "Can you detect any background noise or sounds that could affect sentiment?",
+        "What is the speaker's pace of speech (e.g., fast, slow)?",
+        "Is there any change in pitch or volume that suggests emotional intensity?",
+        "Does the speaker's voice sound calm, stressed, or excited?",
+        "Are there any pauses or silences that could imply hesitation or uncertainty?",
+        "Can you identify any laughter or crying in the audio?"
+    ]
+}

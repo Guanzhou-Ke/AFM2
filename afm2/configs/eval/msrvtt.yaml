@@ -1,0 +1,32 @@
+dataset:
+  vision_root: '[your path to data]/MSR-VTT/images'
+  audio_root: '[your path to data]/MSR-VTT/videos/all'
+  metadata_path: 'afm2/configs/eval/msrvtt_test_metadata.json'
+  label_index: 'afm2/configs/eval/msrvtt_category.json'
+
+  # missing_index: 'afm2/configs/missing-info/msrvtt/audio-0.3.json'
+
+  # missing_index: 'afm2/configs/missing-info/msrvtt/image-0.3.json'
+  # missing_index: 'afm2/configs/missing-info/msrvtt/image-0.5.json'
+  missing_index: 'afm2/configs/missing-info/msrvtt/image-0.7.json'
+
+
+
+
+default:
+  work_dir: 'eval_dir/msrvtt'
+  # exp_name: 'audio-0.3'
+  # complete_target: 'audio'
+
+  # exp_name: 'audio-0.5'
+  # complete_target: 'audio'
+
+  # exp_name: 'audio-0.7'
+  # complete_target: 'audio'
+
+  # exp_name: 'image-0.5'
+  # complete_target: 'image'
+
+  exp_name: 'image-0.7'
+  complete_target: 'image'
+  retry: 3

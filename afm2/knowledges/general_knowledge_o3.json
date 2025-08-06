@@ -1,0 +1,26 @@
+{
+    "image": [
+        "What objects are present in the image?",
+        "How many people are visible in the image?",
+        "What colors are dominant in the image?",
+        "What is the main activity happening in the image?",
+        "Is there any text in the image? If so, what does it say?",
+        "What is the background like? Is it indoors or outdoors?"
+    ],
+    "text": [
+        "What is the main theme or topic of the text?",
+        "Are there any relationships mentioned between entities?",
+        "How many distinct characters or entities are mentioned?",
+        "What emotions or sentiments are expressed in the text?",
+        "Is there any reference to a specific location or time?",
+        "Does the text describe any actions or events?"
+    ],
+    "audio": [
+        "What is the general mood or tone of the audio?",
+        "How many people are speaking in the audio?",
+        "Is there any background noise or sound effects?",
+        "What language is the audio in?",
+        "Are there any specific emotions expressed in the audio?",
+        "What is the main activity or topic discussed in the audio?"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "image": [
+        "What objects are prominently visible in the image?",
+        "Are there any human faces, and what emotions do their expressions convey?",
+        "What colors dominate the visual scene?",
+        "Is the setting indoors or outdoors, and what details describe the environment?",
+        "Are there any symbols or logos that might indicate brand associations or cultural context?",
+        "What activities or interactions are taking place between objects or people?"
+    ],
+    "text": [
+        "What explicit sentiment-related words (e.g., 'happy', 'angry') are present?",
+        "What entities (people, organizations, locations) are mentioned?",
+        "Are there metaphors, sarcasm, or figurative language that could alter sentiment interpretation?",
+        "What is the overall tone (e.g., formal, casual, aggressive) of the text?",
+        "Are there contrasting phrases that might indicate mixed emotions?",
+        "What verbs or actions describe relationships between entities?"
+    ],
+    "audio": [
+        "What emotions are conveyed through the speaker's tone (e.g., excitement, sadness)?",
+        "Are there background sounds (e.g., laughter, traffic) that provide contextual clues?",
+        "Does the speech rate or pitch vary significantly, and where?",
+        "Is the volume consistently loud/soft, or does it fluctuate with emotional intensity?",
+        "Are specific words or phrases emphasized through stress or pauses?",
+        "Does the audio contain non-verbal cues (e.g., sighs, laughter) that indicate sentiment?"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "image": [
+        "What is the main object or subject in the image?",
+        "How many people are present in the image?",
+        "What colors dominate the image?",
+        "Are there any text or symbols visible in the image? If so, what do they say?",
+        "What is the spatial relationship between the foreground and background objects?",
+        "Is there any notable action or activity occurring in the image?",
+        "What type of environment or setting is depicted (e.g., indoor, outdoor, urban, natural)?",
+        "Are there any animals or vehicles in the image? If so, what kinds?",
+        "What emotions or moods are conveyed by the scene or subjects?"
+    ],
+    "text": [
+        "What are the key entities (e.g., people, places, organizations) mentioned?",
+        "What relationships or interactions exist between the entities?",
+        "What events or actions are described?",
+        "Are there any numerical values, dates, or measurements specified?",
+        "What is the overall sentiment or tone of the text?",
+        "Are there any causal or temporal relationships (e.g., 'because', 'after') in the text?",
+        "What keywords or phrases are central to the text's meaning?",
+        "Does the text reference any sensory details (e.g., sounds, smells, textures)?",
+        "Are there any contradictions or ambiguities in the text?"
+    ],
+    "audio": [
+        "What type of sound or audio is this (e.g., speech, music, environmental noise)?",
+        "How many distinct speakers or sound sources are present?",
+        "What emotions or tones are conveyed by the speaker's voice?",
+        "Are there any background noises? If so, what are they?",
+        "What language or dialect is being spoken?",
+        "What is the primary topic or subject of the speech?",
+        "Are there any repetitive patterns or rhythms in the audio?",
+        "Does the audio include non-verbal sounds (e.g., laughter, clapping, machinery)?",
+        "Is the audio quality clear, distorted, or muffled?"
+    ]
+}

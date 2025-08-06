@@ -1,0 +1,44 @@
+dataset:
+  vision_root: '[your path to data]/vggsound/images'
+  audio_root: '[your path to data]/vggsound/media/test'
+  csv_index: 'afm2/configs/eval/vggsound_testset_caption.csv'
+
+  # missing_index: 'afm2/configs/missing-info/vggsound/audio-0.3.json'
+  # missing_index: 'afm2/configs/missing-info/vggsound/audio-0.5.json'
+  # missing_index: 'afm2/configs/missing-info/vggsound/audio-0.7.json'
+
+
+  # missing_index: 'afm2/configs/missing-info/vggsound/image-0.3.json'
+  # missing_index: 'afm2/configs/missing-info/vggsound/image-0.5.json'
+  missing_index: 'afm2/configs/missing-info/vggsound/image-0.7.json'
+
+
+  # missing_index: 'afm2/configs/missing-info/vggsound/text-0.7.json'
+
+
+  use_long_caption: true
+
+
+default:
+  work_dir: 'eval_dir/vggsound'
+  # exp_name: 'audio-0.3'
+  # complete_target: 'audio'
+
+  # exp_name: 'audio-0.5'
+  # complete_target: 'audio'
+
+  # exp_name: 'audio-0.7'
+  # complete_target: 'audio'
+
+  # exp_name: 'text-0.7'
+  # complete_target: 'text'
+
+  # exp_name: 'image-0.3'
+  # complete_target: 'image'
+
+  # exp_name: 'image-0.5'
+  # complete_target: 'image'
+
+  exp_name: 'image-0.7'
+  complete_target: 'image'
+  retry: 3

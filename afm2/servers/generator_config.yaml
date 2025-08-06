@@ -1,0 +1,32 @@
+# for image generator
+default:
+  # The default model to use for image generation -> image_generator will be used
+  # infer_type: image 
+  # infer_type: audio
+  infer_type: "audio+image"
+
+image_generator:
+  model_name: black-forest-labs/FLUX.1-dev
+  model_type: image_generator_flux1
+  height: 512
+  width: 512
+  num_inference_steps: 50
+  guidance_scale: 4.5
+  max_sequence_length: 512
+  negative_prompt: "low quality, blurry, pixelated, bad anatomy, extra fingers, bad hands, deformed face, unnatural colors, cropped."
+  num_images_per_prompt: 1
+  device: "cuda:3"
+  seed: 42
+
+
+audio_generator:
+  model_name: stabilityai/stable-audio-open-1.0
+  model_type: audio_generator_sd1
+  num_inference_steps: 100
+  audio_end_in_s: 10
+  num_waveforms_per_prompt: 1
+  device: "cuda:3"
+  negative_prompt: "low quality, noisy, distorted, bad audio."
+  seed: 42
+
+

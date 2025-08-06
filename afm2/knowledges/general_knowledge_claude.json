@@ -1,0 +1,53 @@
+{
+    "image": [
+        "What objects are present in the image?",
+        "How many people are in the image?",
+        "What colors are dominant in the scene?",
+        "What is the spatial relationship between objects X and Y?",
+        "Is this an indoor or outdoor scene?",
+        "What actions are being performed in the image?",
+        "What text is visible in the image?",
+        "What emotions are expressed by people in the image?",
+        "What time of day does this image appear to be taken?",
+        "What weather conditions are visible?",
+        "Are there any identifiable landmarks or locations?",
+        "What is the estimated age range of people in the image?",
+        "What clothing or accessories are people wearing?",
+        "What is the main subject/focus of the image?",
+        "Are there any animals in the image? What kinds?"
+    ],
+    "text": [
+        "What named entities (people, organizations, locations) are mentioned in the text?",
+        "What are the main topics discussed in the text?",
+        "What relationships exist between the entities mentioned?",
+        "What actions or events are described in the text?",
+        "What temporal information is mentioned (dates, times, durations)?",
+        "What sentiments are expressed toward specific entities?",
+        "Are there any causal relationships described?",
+        "What numerical data or statistics are mentioned?",
+        "What questions are asked in the text?",
+        "What opinions or subjective statements are made?",
+        "Are there any contradictions or logical inconsistencies in the text?",
+        "What references to external sources or citations are included?",
+        "What conditional statements (if-then) are present?",
+        "What is the reading level or complexity of the text?",
+        "Are there any instructions or procedural steps described?"
+    ],
+    "audio": [
+        "What words are spoken in the audio?",
+        "How many distinct speakers are there?",
+        "What is the emotional tone of the speakers?",
+        "Are there any non-speech sounds? What are they?",
+        "What is the background environment (noisy, quiet, outdoors, indoors)?",
+        "Is there music present? What genre/style?",
+        "What is the pace or rhythm of speech/music?",
+        "Are there any distinguishable accents or dialects?",
+        "What is the volume level and variation throughout the audio?",
+        "Are there any audio cues indicating transitions or sections?",
+        "What is the clarity or quality of the audio?",
+        "Is there overlapping speech or sounds?",
+        "What is the gender distribution of speakers?",
+        "Are there any distinctive voice characteristics (deep, high-pitched, raspy)?",
+        "What is the duration of speech versus non-speech elements?"
+    ]
+}

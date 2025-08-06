@@ -1,0 +1,19 @@
+dataset:
+  # for training.
+  # vision_root: '[your path to data]/coco2014/train2014'
+
+  # for testing.
+  vision_root: '[your path to data]/coco2014/val2014'
+  class_name_path: 'afm2/configs/eval/coco_category.json'
+  metadata_path: 'afm2/configs/eval/coco_val.json'
+  missing_index: 'afm2/configs/missing-info/coco2014/image-0.7.json'
+
+ 
+
+default:
+  work_dir: 'eval_dir/coco2014'
+
+
+  exp_name: 'image-0.7'
+  complete_target: 'image'
+  retry: 3

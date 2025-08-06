@@ -1,0 +1,31 @@
+{
+    "pre": [
+      "Does the {modality} contain meaningful content? Only need to answer 'yes' or 'no'."
+    ],
+    "image": [
+      "List the key objects present in the image and specify their primary colors.",
+      "Count the number of instances for each identified object and describe their spatial arrangement, including foreground and background distinctions.",
+      "Describe any interactions among the objects, and detail any actions performed by humans or animals in the image.",
+      "Identify the overall setting of the image (e.g., indoor, outdoor, urban, natural) and note any visible weather conditions or time-related cues.",
+      "If visible, transcribe any text present in the image and discuss its contextual relevance. Also, summarize the dominant color scheme and overall mood conveyed by the scene.",
+      "For human subjects, specify the number of people, their approximate age ranges, attire, and expressed emotions. Also, identify any landmarks, vehicles, or notable features present."
+    ],
+    "text": [
+      "Identify and list the key entities (e.g., people, organizations, locations) and describe the main events or actions mentioned in the text, including any cause-effect relationships.",
+      "Summarize the overall context or setting provided in the text, including any temporal and spatial details.",
+      "What is the central theme or purpose of the text? Provide a concise summary of the main idea.",
+      "Analyze the sentiments expressed in the text. What explicit or implicit emotions are conveyed, and how do they affect the narrative?",
+      "Identify any figurative language (e.g., metaphors, similes) or symbolic references, and comment on the narrative style and complexity of the text.",
+      "Outline the relationships and interactions among entities and events mentioned, and highlight any contradictions, ambiguities, or logical inconsistencies.",
+      "Extract any numerical data (such as dates, statistics, or durations) and briefly describe their context within the text."
+    ],
+    "audio": [
+      "Transcribe the spoken content accurately and identify key phrases or words that capture the main message of the audio.",
+      "Identify and describe any background sounds or noises (e.g., traffic, music, ambient sounds) and characterize the overall acoustic environment (e.g., indoor, outdoor, noisy, quiet).",
+      "Determine how many speakers are present; for each speaker, describe their tone, emotional expression, and any noticeable overlapping or interruptions in dialogue.",
+      "Identify the language, accent, or dialect being spoken, and note any distinctive voice characteristics (such as pitch, timbre, or clarity).",
+      "Detect the presence of music or sound effects in the audio, and explain how these elements contribute to the overall mood or message. Also, capture any non-verbal cues like laughter or sighs.",
+      "Analyze the proportions of speech versus non-speech segments and evaluate the overall audio quality, noting any variations in volume or clarity."
+    ]
+  }
+  

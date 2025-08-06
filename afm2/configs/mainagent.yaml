@@ -1,0 +1,57 @@
+# llm:
+#   # General LLM configuration
+#   model: "gpt-4o"
+#   base_url: "https://api.deerapi.com/v1"
+#   api_key: "sk-iWRRSDUVDQ3hhK12HiNFzduttHTxOWLT6pQnUdlwP2bk7iMr"
+#   max_tokens: 4096
+#   temperature: 0.0
+
+# # Optional configuration for specific vlm models
+# vlm:
+#   model: "gpt-4o"
+#   base_url: "https://api.deerapi.com/v1"
+#   api_key: "sk-iWRRSDUVDQ3hhK12HiNFzduttHTxOWLT6pQnUdlwP2bk7iMr"
+#   max_tokens: 8192                           # Maximum number of tokens in the response
+#   temperature: 0.0                           # Controls randomness
+
+llm:
+  # Local LLM configuration
+  model: "Qwen/Qwen2.5-14B-Instruct-1M"
+  base_url: "http://0.0.0.0:12377/v1"
+  api_key: "token-abc123"
+  max_tokens: 8192
+  temperature: 0.3
+  api_type: "local"       
+           
+omni:
+  model: "Qwen/Qwen2.5-Omni-7B"
+  base_url: "http://0.0.0.0:12388/v1"
+  api_key: "token-abc123"
+  max_tokens: 8192
+  temperature: 0.3
+  api_type: "local"     
+
+
+generator:
+  image_generator: "http://0.0.0.0:12399/image_generate"
+  nums_image_generation: 1
+  audio_generator: "http://0.0.0.0:12399/audio_generate"
+  nums_audio_generation: 1
+
+
+verifier:
+  only_verify_generation: true
+  generation_threshold: 4
+  understanding_threshold: 4
+  max_generation_verification_step: 3
+  penalty_score: 0.15
+
+  
+
+default:
+  domain: "general"
+  knowledge: "general_knowledge_all.json"
+  use_omni_model: true
+
+  use_rag: false
+                    
