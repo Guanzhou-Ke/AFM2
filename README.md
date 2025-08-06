@@ -1,4 +1,4 @@
-# AFM2
+# Agentic Framework for Missing Modality (AFM2)
 
 Official repository for **"How Far Are We from Generating Missing Modalities with Foundation Models?"**
 
