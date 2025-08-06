@@ -200,4 +200,21 @@ AFM2 will automatically compute and log key evaluation metrics upon completion, 
 No additional manual evaluation steps are needed.
 
 
+## Citation
 
+Please consider citing our work if you find it beneficial to your research.
+```
+@article{ke2025knowledge,
+  title={Knowledge bridger: Towards training-free missing multi-modality completion},
+  author={Ke, Guanzhou and He, Shengfeng and Wang, Xiao Li and Wang, Bo and Chao, Guoqing and Zhang, Yuanyang and Xie, Yi and Su, HeXing},
+  journal={arXiv preprint arXiv:2502.19834},
+  year={2025}
+}
+
+@article{ke2025far,
+  title={How Far Are We from Predicting Missing Modalities with Foundation Models?},
+  author={Ke, Guanzhou and Xie, Yi and Wang, Xiaoli and Chao, Guoqing and Wang, Bo and He, Shengfeng},
+  journal={arXiv preprint arXiv:2506.03530},
+  year={2025}
+}
+```
