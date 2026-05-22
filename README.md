@@ -7,6 +7,9 @@ AFM2 provides a unified interface for evaluating and deploying missing modality 
 💼💼💼
 **I am a fourth-year Ph.D. candidate focused on large multimodal model applications and AI agent systems. I am looking for a full-time job or an interns in related areas. If my work aligns with your interests or needs, please don’t hesitate to get in touch.**
 
+
+- 🎉🎉 This paper is accepted at IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI).
+
 📧 Email: guanzhouk[AT]gmail.com
 📄 CV: [EN](https://guanzhouk.top/files/guanzhou-ke-cv-en.pdf) / [中文](https://guanzhouk.top/files/guanzhouke-cv-cn-new.pdf)
 
